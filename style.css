@@ -1,0 +1,45 @@
+.bomb{
+    border-style: sold;
+    border-color: black;
+}
+.wholeField{
+    text-align: center;
+}
+body{
+    background-color: #7b7b7b;
+}
+.x img{
+    height: 45px;
+    width: 45px;
+}/*resizing fields*/
+
+.tt{
+    width: 7%;
+} /*smaller timer and flags counter*/
+
+.timer{
+    display: inline-block;
+}
+
+.theSun{
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+
+}
+.sunIMG{
+    width: 80%
+}
+
+.flagsNo{
+    display: inline-block;
+
+
+}
+.difficulity{
+    display: inline-block;
+}
+.menu{
+    background-color:#bdbdbd;
+    
+}

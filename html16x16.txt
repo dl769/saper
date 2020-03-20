@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<head>
+<title>Saper</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="timer.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body oncontextmenu="return false;">
+    
+    
+<container class='wholeField'>
+    <div class="menu">
+    <p class="timer"><img src="t0.png" class='tt'><img src="t0.png" class='tt'><img src="t0.png" class='tt'>TIME <img src="sunH.png"></p>
+    <p class="flagsNo"></p>
+    <select id="difficulty" onchange="selectedMap()">
+        <option>EASY</option>
+        <option>MEDIUM</option>
+        <option>HARD</option>
+    </select>
+    </div>
+   
+
+    <div class='x'>
+        <a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><br>
+        <a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><br>
+        <a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><br>
+        <a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><br>
+        <a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><br>
+        <a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><br>
+        <a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><br>
+        <a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><br>
+        <a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><br>
+        <a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><br>
+        <a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><br>
+        <a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><br>
+        <a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><br>
+        <a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><br>
+        <a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><br>
+        <a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><a id='p'></a><br>
+        
+    </div>
+
+    <img src="1.png">
+    <img src="bomb.png">
+    <img src="bombDefeat.png">
+    <img src="2.png">
+    <img src="3.png">
+    <img src="4.png">
+    <img src="5.png">
+    <img src="6.png">
+    <img src="7.png">
+    <img src="8.png">
+    <img src="9.png">
+    <img src="flag.png">
+    <img src="field.png">
+    <br>
+    <img src="0.png">
+    <img src="t2.png">
+    <img src="t3.png">
+    <img src="t4.png">
+    <img src="t5.png">
+    <img src="t6.png">
+    <img src="t7.png">
+    <img src="t8.png">
+    <img src="t9.png">
+    <img src="t1.png">
+    <img src="t0.png">
+
+</container>
+
+
+
+</html> 
