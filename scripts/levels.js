@@ -9,12 +9,12 @@ function appendEasy(){
     '<a id="p"></a><a id="p"></a><a id="p"></a><a id="p"></a><a id="p"></a><a id="p"></a><a id="p"></a><a id="p"></a><a id="p"></a><br>'+
     '<a id="p"></a><a id="p"></a><a id="p"></a><a id="p"></a><a id="p"></a><a id="p"></a><a id="p"></a><a id="p"></a><a id="p"></a><br>'+
     '</div>')
-   // $('.x img').
+    
     size = 81;
     sizePlusOne =size+1;
-    $("a").html('<img src="field.png">');
+    $("a").html('<img src="img/field.png">');
     starter();
-    $('.flagsNo').html('<img src="t0.png"  class="tt"><img src="t1.png"  class="tt"><img src="t0.png"  class="tt">')
+    $('.flagsNo').html('<img src="img/t0.png"  class="tt"><img src="img/t1.png"  class="tt"><img src="img/t0.png"  class="tt">')
 
 
 }
@@ -39,10 +39,10 @@ function appendMedium(){
     '</div>')
     size = 256;
     sizePlusOne =size+1;
-    $("a").html('<img src="field.png">');
+    $("a").html('<img src="img/field.png">');
     starter();
 
-    $('.flagsNo').html('<img src="t0.png"  class="tt"><img src="t4.png"  class="tt"><img src="t0.png"  class="tt">')
+    $('.flagsNo').html('<img src="img/t0.png"  class="tt"><img src="img/t4.png"  class="tt"><img src="img/t0.png"  class="tt">')
 
 
 }
@@ -67,10 +67,10 @@ function appendHard(){
     '</div>')
     size = 480;
     sizePlusOne =size+1;
-    $("a").html('<img src="field.png">');
+    $("a").html('<img src="img/field.png">');
     starter();
 
-    $('.flagsNo').html('<img src="t1.png"  class="tt"><img src="t0.png"  class="tt"><img src="t0.png"  class="tt">')
+    $('.flagsNo').html('<img src="img/t1.png"  class="tt"><img src="img/t0.png"  class="tt"><img src="img/t0.png"  class="tt">')
 
 
 }

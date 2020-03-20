@@ -37,15 +37,15 @@ function selectedMap(){
     
     var selection = document.getElementById('difficulty').value
 
-    if(selection=='EASY'){
+    if(selection=='ŁATWY'){
 
         appendEasy();
     }
-    if(selection=='MEDIUM'){
+    if(selection=='ŚREDNI'){
 
         appendMedium();
     }
-    if(selection=='HARD'){
+    if(selection=='TRUDNY'){
 
         appendHard();
     }
