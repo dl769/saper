@@ -12,7 +12,9 @@ body{
     height: 45px;
     width: 45px;
 }/*resizing fields*/
-
+#currentDF{
+    color:#6760e2;
+}
 .tt{
     width: 12%;
 } /*smaller timer and flags counter*/
@@ -46,6 +48,7 @@ body{
 }
 .q{
     text-align: center;
+    
 }
 #noselect{
     display: none;

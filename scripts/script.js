@@ -121,7 +121,9 @@ function showFreeSpaces ()
 
 function checkThisField(no){
 
-    if(!endOfTheGame){
+    var isFlagHere = document.getElementById(no).hasAttribute("alt");
+
+    if(!endOfTheGame && !isFlagHere){
         clickedFields.push(no);
 
         if (locatedBombs.includes(no)){     
